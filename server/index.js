@@ -30,4 +30,4 @@ app.post('/remove-event', (request, response) => {
     .write()
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
