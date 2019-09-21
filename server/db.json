@@ -1,16 +1,4 @@
 {
-  "events": [
-    {
-      "type": "Task",
-      "title": "Mate Hackaton",
-      "date": "21.09.2019"
-    },
-    {
-      "type": "Event",
-      "title": "School Day",
-      "date": "01.09.2019"
-    }
-  ],
   "users": [
     {
       "name": "Sashok",
@@ -20,5 +8,19 @@
       "name": "Artem",
       "password": "learntocode"
     }
-  ]
+  ],
+  "events": {
+    "21.9.2019": [
+      {
+        "type": "Task",
+        "title": "Mate Hackaton"
+      }
+    ],
+    "1.9.2019": [
+      {
+        "type": "Event",
+        "title": "School Day"
+      }
+    ]
+  }
 }
